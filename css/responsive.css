@@ -1,0 +1,115 @@
+
+/*
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+
+*/
+
+@media (max-width: 991px) {
+
+body {font-size: 0.9rem;}
+a {font-size: 0.9rem;}
+#menu-list li a {
+    padding: 6px 15px;
+    display: block;
+}
+#nav-menu #menu-list {
+    padding: 10px 0;
+}
+
+
+}
+
+@media (max-width: 800px) {
+
+.section-padding {padding: 70px 0;}
+.section-heading {padding-bottom: 60px;}
+.slide .content h1 {font-size: 2.75rem;}
+.slide .content p {font-size: 1rem;}
+a.owl-prev > i, a.owl-next > i {height: 40px;width: 40px;line-height: 40px;}
+#service .service-item {padding: 35px 15px;}
+#call-to-action a.owl-prev {left: 30px;}
+#call-to-action a.owl-next {right: 30px;}
+#blog .blog-button {margin-top: 30px;}
+#blog .blog-button a {padding: 12px 60px;}
+#contact form textarea {height: 160px;}
+
+}
+
+@media (max-width: 767px) {
+
+.section-padding {padding: 45px 0;}
+.section-heading {padding-bottom: 45px;}
+h2 {font-size: 1.7rem;}
+.service-area .col-md-4:nth-child(3) >.service-item {border-right: 1px solid #f2f2f2!important; padding-top: 35px!important;}
+.service-area .col-md-4:nth-child(2) >.service-item {border-right: none!important;}
+.service-area .col-md-4:nth-child(4) >.service-item {border-right: none!important;}
+.service-area .col-md-4:nth-child(6) >.service-item {border-top: 1px solid #f2f2f2!important;}
+.about-left {text-align: center; margin-bottom: 30px;}
+.team-member {margin-bottom: 30px;}
+#counter .counter-item i {font-size: 32px;}
+#counter .counter-item h3 {font-size: 26px;}
+#counter .section-padding {padding: 25px 0;}
+.counter-item {margin: 30px 0;}
+#pricing .pricing-plan {margin-bottom: 30px;}
+.blog-post {margin-bottom: 40px;}
+#blog .blog-button {margin-top: 10px;}
+.contact-right {padding-left: 0;}
+#contact form {margin-bottom: 40px;}
+
+}
+
+@media (max-width: 660px) {
+
+.slide .content h1 {font-size: 2.3rem;}
+.slide .content p {font-size: 0.85rem;	padding: 0 65px;}
+a.owl-prev > i, a.owl-next > i {height: 30px;width: 30px;line-height: 30px;font-size: 15px;}
+.slide .content a.home-button {padding: 10px 30px;}
+
+@media (max-width: 576px) {
+
+.col-md-4, .col-md-3 {width: 50%;}
+.slide .content h1 {padding: 0 35px;}
+#hero-slider:hover .owl-prev {left: 15px;}
+#hero-slider:hover .owl-next {right: 15px;}
+.twitter-slide {padding: 0 60px;}
+.blog-post .post-thumb .post-meta span {font-size: 12px;}
+.blog-post .post-thumb .post-meta {bottom: 10px;left: 10px;}
+.blog-post .post-thumb .post-meta span {margin-right: 10px;}
+#call-to-action a.owl-prev {left: 20px;}
+#call-to-action a.owl-next {right: 20px;}
+#call-to-action a.owl-prev i, #call-to-action a.owl-next i {height: 30px; width: 30px; line-height: 30px; font-size: 15px;}
+#contact form input {height: 44px;}
+
+}
+
+@media (max-width: 490px) {
+
+.col-md-4, .col-md-3 {width: 100%;}
+#counter .col-md-4, #counter .col-md-3 {width: 50%;}
+#service .service-item {padding: 35px 0px;}
+.service-area .col-md-4:nth-child(1) >.service-item {border-right: none!important;}
+.service-area .col-md-4:nth-child(2) >.service-item {padding-top: 35px!important;}
+.service-area .col-md-4:nth-child(3) >.service-item {border-right: none!important;}
+.service-area .col-md-4:nth-child(5) >.service-item {border-top: 1px solid #f2f2f2!important; border-right: none!important;}
+#footer-bottom span {display: block;text-align: center;width: 100%;margin: 5px 0;}
+#footer-bottom {padding: 15px 0;}
+
+
+}
